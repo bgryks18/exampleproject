@@ -1,7 +1,6 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {useHistory} from 'react-router-dom'
-import {GetData} from '../../actions/UsersActions'
 const User = (props) => {
     const history = useHistory();
     if (props.user){
