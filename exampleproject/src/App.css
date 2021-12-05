@@ -1,0 +1,75 @@
+body {
+  background: #ccc;
+  font-family:Arial, Helvetica, sans-serif
+}
+.clear {
+  clear:both;
+}
+div.sidebar {
+  background: linear-gradient(#6a01da  0, #a101ed 45%);
+  min-height: 900px;
+}
+div.stick {
+  width:95%;
+  margin: auto;
+  height:1px;
+  background:#bbb;
+}
+div.sidebar ul li{
+  margin:6px 7px;
+  margin-left:9px;
+}
+div.sidebar ul li.exit {
+  bottom:1%;
+}
+div.sidebar ul li a {
+  color:#eee;
+  text-shadow: 1px 1px 2px #333;
+  display: inline-block;
+  padding: 6px 10px;
+  transition: all 0.2s;
+}
+div.sidebar ul li a:hover {
+  color:#fff;
+}
+div.sidebar ul li a i {
+  color:#bbb;
+}
+/**/
+div.content {
+  background: #fff;
+  min-height:900px;
+}
+div.content div.top h2 {
+  display:inline-block;
+
+}
+div.content div.top div.buttons {
+  display:inline-block;
+}
+div.content div.top {
+  padding:24px;
+}
+/**/
+div.content div.bottom {
+   padding:24px;
+}
+div.content div.bottom table th[scope='col'] {
+  color:#999;
+  font-size:13px;
+}
+div.content div.bottom table th[scope='row'],div.content div.bottom table td {
+  color:#333;
+  font-size:14px;
+}
+/**/
+.rdt_Table .rdt_TableRow{
+  color:#333;
+  font-size:12px;
+  cursor:pointer;
+
+}
+.rdt_Table .rdt_TableRow:hover{
+  background: #bbb;
+
+}
